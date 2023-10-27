@@ -1,0 +1,57 @@
+.container {
+    max-width: 850px;
+    max-height: 400px; 
+    margin: 0 auto;
+    padding: 80px;
+    text-align: center;
+    background-image: linear-gradient(rgba(200,200,200,0.5), rgba(200,200,200,0.5)), url("background.jpg");
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #555;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+.button1 {
+    background-color: green;
+}
+
+.button2 {
+    background-color: blue;
+}
+
+.button3 {
+    background-color: red;
+}
+.button4 {
+    background-color: rgb(246,190,0);
+}
+
+.button5 {
+    background-color: Purple;
+}
+.button6 {
+    background-color: brown;
+}

@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+    color:white;
+    margin:0;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+/*div*/
+#showcase{
+    margin:0px;
+    padding: 5px 5px 5px 5px;
+    
+}
+.container{
+    margin-top: 30px;
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+nav{
+    margin:0;
+    padding:0;
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    color:white;
+}
+nav ul{
+    padding:0;
+    margin:0;
+
+}
+nav li{
+    display: inline;
+    float:left;
+}
+nav a {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+}
+/*pseudo classes*/
+nav li:hover{
+    background-color: #444;
+}
